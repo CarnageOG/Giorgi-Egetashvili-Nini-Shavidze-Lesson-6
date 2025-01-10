@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
@@ -21,14 +20,12 @@ body {
   font-size: 36px;
   margin-bottom: 30px;
   text-align: left;
-  justify-content: center;
-  padding-left: 10%; 
+  padding-left: 10%;
 }
 
 .services-list {
   display: flex;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 0 10%;
   align-items: flex-start;
   gap: 20px;
 }
@@ -37,7 +34,7 @@ body {
   background: #f5f5f5;
   border-radius: 10px;
   padding: 20px;
-  text-align: left; /* Align text to the left */
+  text-align: left;
   width: 300px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -61,29 +58,27 @@ body {
   height: 60px;
   background-color: #ccc;
   margin-bottom: 15px;
-
 }
 
 .icon.blue {
   background-color: #007bff;
 }
 
-
 .service {
   display: flex;
-  align-items: flex-start; 
+  align-items: flex-start;
   gap: 20px;
 }
 
 .service .icon {
-  flex-shrink: 0; 
+  flex-shrink: 0;
 }
 
 .service .text {
-  flex-grow: 1; 
+  flex-grow: 1;
 }
 
-/* Footer Section */
+/* Projects Section */
 .background {
   background: blue;
   color: white;
@@ -93,6 +88,41 @@ body {
 
 .background h2 {
   font-size: 32px;
+  color: #FFFFFF;
+  padding-top: 70px;
+  padding-bottom: 200px;
+  padding-left: 240px;
+}
+
+.container {
+  transform: translateY(-120px);
+  max-width: 1980px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 240px;
+}
+
+.layout {
+  width: 463px;
+  display: inline-block;
+}
+
+.parent {
+  position: relative;
+}
+
+.parent p {
+  position: absolute;
+  background: #FFFFFF;
+  font-size: 18px;
+  padding: 30px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+}
+
+.distance {
+  margin-right: 25px;
 }
 
 /* Responsive Design */
@@ -105,3 +135,18 @@ body {
   .service {
     width: 90%;
   }
+
+  .background h2 {
+    font-size: 28px;
+    padding-left: 20px;
+  }
+
+  .container {
+    padding-left: 20px;
+  }
+
+  .layout {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
