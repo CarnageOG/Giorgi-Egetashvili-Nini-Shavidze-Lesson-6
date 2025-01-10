@@ -2,3 +2,16 @@
 	margin: 0;
 	padding: 0;
 }
+h2{
+	background: blue;
+	font-size: 32px;
+	color: #FFFFFF;
+	padding-top: 70px;
+	padding-right: 1496px;
+	padding-bottom: 200px;
+	padding-left: 240px;
+}
+.layout{
+	width: 463px;
+	display: inline-block;
+}
