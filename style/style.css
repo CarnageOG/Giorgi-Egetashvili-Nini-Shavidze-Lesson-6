@@ -3,8 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
 body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
@@ -105,3 +103,42 @@ body {
   .service {
     width: 90%;
   }
+.design-h2{
+  font-size: 32px;
+  color: #FFFFFF;
+  padding-top: 70px;
+  padding-bottom: 200px;
+  padding-left: 240px;
+}
+.background{
+  background: blue;
+}
+.layout{
+  width: 463px;
+  display: inline-block;
+}
+.parent{
+  position: relative;
+}
+.parent p{
+  position: absolute;
+  background: #FFFFFF;
+  font-size: 18px;
+  padding-top: 30px;
+  padding-right: 74px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+}
+.distance{
+  margin-right: 25px;
+}
+.container{
+  transform: translatey(-120px);
+  max-width: 1980px;
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 240px;
+}
