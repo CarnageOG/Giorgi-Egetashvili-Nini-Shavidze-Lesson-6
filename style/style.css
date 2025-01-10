@@ -3,7 +3,6 @@
 	padding: 0;
 }
 h2{
-	background: blue;
 	font-size: 32px;
 	color: #FFFFFF;
 	padding-top: 70px;
@@ -11,7 +10,24 @@ h2{
 	padding-bottom: 200px;
 	padding-left: 240px;
 }
+.background{
+	background: blue;
+}
 .layout{
 	width: 463px;
 	display: inline-block;
+}
+.parent{
+	position: relative;
+}
+.parent p{
+	position: absolute;
+	background: #FFFFFF;
+	padding-top: 30px;
+	padding-right: 74px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
 }
