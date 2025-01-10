@@ -36,3 +36,7 @@ h2{
 }
 .container{
 	transform: translatey(-120px);
+	max-width: 1980px;
+	width: 100%;
+	margin: 0 auto;
+	margin-left: 240px;
